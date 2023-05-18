@@ -1,0 +1,25 @@
+.main_card {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 130px;
+}
+
+.swal2-container {
+  position: static !important;
+}
+
+@media (max-width: 767.98px) {
+  .main_card {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 130px;
+  }
+
+  .logo_card {
+    display: none;
+  }
+
+  .lable {
+    --width: 100% !important;
+  }
+}

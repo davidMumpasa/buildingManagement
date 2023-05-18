@@ -1,0 +1,22 @@
+.videoClass {
+  position: relative;
+  --display: block !important;
+  width: 100% !important;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110% !important;
+}
+
+.v_data {
+  width: 100% !important;
+  --overflow: auto;
+
+  border-top: 5px solid black;
+  border-radius: 5px 5px 5px 5px;
+
+  border-bottom: 5px solid black;
+}

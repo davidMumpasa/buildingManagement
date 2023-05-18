@@ -1,0 +1,8 @@
+.emp_btn_register {
+  border-style: none !important;
+  --background: rgba(165, 42, 42, 0);
+  --box-shadow: none !important;
+  color: black;
+  margin: 0 !important;
+  padding: 0 !important;
+}

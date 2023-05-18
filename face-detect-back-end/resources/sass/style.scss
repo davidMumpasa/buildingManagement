@@ -1,0 +1,163 @@
+// Navigation section
+.navbar {
+    background-color: rgba(0, 0, 0, 0.912);
+
+    .nav_links {
+        text-decoration: none !important;
+        margin-left: 10px;
+    }
+}
+.sub_line_d {
+    min-height: 10px !important;
+    background-color: rgb(93, 92, 92);
+    overflow: none !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+// Filter
+.dropdown {
+    text-align: right;
+    .btn {
+        border-radius: 5px !important;
+        width: 180px;
+        background-color: rgba(0, 0, 0, 0);
+        color: black !important;
+        border-style: none !important;
+        margin-bottom: 10px;
+    }
+}
+
+// Login
+.login {
+    margin-top: 7% !important;
+    margin-left: 35%;
+    margin-right: 35%;
+
+    .card {
+        border-style: none;
+        background-color: rgba(0, 0, 0, 0.062);
+        min-height: 500px;
+        border-radius: 20px;
+    }
+
+    .card-body {
+        padding: 10% !important;
+    }
+
+    input {
+        border-style: none;
+        border-bottom: 4px solid rgba(0, 0, 0, 0.279);
+        padding: 10px;
+        background-color: rgba(240, 248, 255, 0.114);
+    }
+}
+
+.form-control {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 5px;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+// Dasbord section
+.dasbord,
+.company {
+    padding: 5%;
+
+    .card {
+        border-top: 5px solid black !important;
+        background-color: rgba(0, 0, 0, 0.032);
+        border-style: none;
+        border-radius: 20px;
+        min-height: 470px;
+        max-height: 470px;
+        overflow: auto;
+
+        .ms-2 {
+            text-align: left !important;
+        }
+    }
+}
+
+.company {
+    .btn {
+        padding: 2px !important;
+        border-radius: 200px;
+    }
+}
+
+.emp_form {
+    padding: 5%;
+    .form-control {
+        padding: 10px !important;
+        background-color: rgba(0, 0, 0, 0);
+        border-style: none;
+        border-bottom: 4px solid rgba(0, 0, 0, 0.131);
+        //background-color: rgb(115, 115, 115);
+    }
+}
+
+// ------------------------------------------------------------------------
+
+/* CSS comes here */
+#video {
+    width: 320px;
+    height: 240px;
+    margin: 0 !important;
+    border-radius: 20px;
+    padding: 0 !important;
+    border: 10px solid rgba(0, 0, 0, 0.558);
+}
+
+#photo {
+    width: 320px;
+    height: 240px;
+    border-radius: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#canvas {
+    display: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.camera {
+    width: 340px;
+    display: inline-block;
+}
+
+.output {
+    width: 340px;
+    display: inline-block;
+}
+
+#startbutton,
+#startbutton2 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 36px;
+    padding: 10px;
+    width: 100px !important;
+    background-color: black !important;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.contentarea {
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+}

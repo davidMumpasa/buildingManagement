@@ -1,0 +1,18 @@
+.back {
+  position: fixed;
+  font-size: 18px;
+  overflow: hidden !important;
+  margin: 0;
+}
+
+.btn_ {
+  position: fixed;
+  width: 100%;
+  border-bottom: 10px solid black;
+}
+
+.inner-scroll {
+  bottom: 0% !important;
+  overflow-y: scroll;
+  --overflow: hidden;
+}

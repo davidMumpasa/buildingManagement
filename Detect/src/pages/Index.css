@@ -1,0 +1,6 @@
+.inner-scroll {
+    bottom: 0% !important;
+    overflow-y: scroll;
+    --overflow: hidden;
+  }
+  

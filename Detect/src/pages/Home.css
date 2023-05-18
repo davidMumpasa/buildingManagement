@@ -1,0 +1,28 @@
+.main_card {
+  min-height: 100vh;
+  padding-top: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 5px solid rgba(0, 0, 0, 0.8);
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+
+.btn_main {
+  --border-radius: 100px;
+}
+
+.camera_icon {
+  min-height: 50px;
+  --border-radius: 50px 0 0 50px;
+}
+
+.inner-scroll {
+  bottom: 0% !important;
+  overflow-y: scroll;
+  --overflow: hidden;
+}

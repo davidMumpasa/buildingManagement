@@ -1,0 +1,17 @@
+.profile_btn {
+  width: 100%;
+  height: 50px;
+  --overflow: hidden;
+}
+
+.cust_Item {
+  --border-style: none;
+  margin-bottom: 2%;
+  overflow: hidden !important;
+}
+
+.inner-scroll {
+  bottom: 0% !important;
+  overflow-y: scroll;
+  --overflow: hidden;
+}
